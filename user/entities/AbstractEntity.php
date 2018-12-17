@@ -19,7 +19,7 @@ abstract class AbstractEntity implements JsonSerializable
      * Hydrate the entity with some data
      * 
      * @access public
-     * @access array $data The data with which to hydrate the object
+     * @param array $data The data with which to hydrate the object
      * @return $this The object for method chaining
      */
     public function hydrate(array $data)
